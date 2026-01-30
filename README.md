@@ -1,14 +1,13 @@
 # 港口设备智能温度监控系统
 
 ![项目预览](https://via.placeholder.com/800x400?text=项目主界面预览)  
-*(建议上传实际截图替换上面的占位图)*
+
 
 ## 项目简介
 
 本项目是一个基于 Python 的**港口设备温度监控系统**，模拟港口核心设备（如起重机、发电机等）的实时温度采集与智能预警。  
 系统结合**温度监测**、**AI趋势预测**、**计算机视觉安防**、**多渠道通知**（弹窗、邮件、微信、报警音），实现预测性维护与双模态（温感+视感）智能预警。
-
-适用于人工智能课程大作业、工业物联网演示或毕业设计。  
+。  
 核心技术：Tkinter GUI + Matplotlib + OpenCV + scikit-learn + DeepSeek API
 
 ## 主要功能
@@ -29,9 +28,9 @@
   - 一键导出Excel/CSV（支持所有历史数据）
 - **其他**：系统日志、数据统计、停止报警音按钮
 
-## 截图展示
 
-（建议在这里插入实际截图）
+
+
 
 - 主界面  
   ![主界面](https://via.placeholder.com/800x600?text=主界面+设备表格)
@@ -56,3 +55,4 @@ cd port-temp-monitor
 
 # 安装依赖（推荐创建虚拟环境）
 pip install numpy pandas matplotlib opencv-python pygame scikit-learn requests
+
